@@ -36,7 +36,6 @@ const App = (props) => {
         const newVotes = votes
         newVotes[selected] = newVotes[selected] + 1
         setVotes(newVotes)
-        setSelected(selected)
         console.log("Anecdote n:o", selected, "has", newVotes[selected], "votes now")
     }
 
